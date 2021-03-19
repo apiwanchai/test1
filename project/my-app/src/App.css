@@ -1,0 +1,44 @@
+@font-face{
+    font-family: 'Prompt-Regular ' ;
+    src:  url('./font/Prompt-Regular.ttf');
+}
+@font-face{
+    font-family: 'Prompt-Medium' ;
+    src:  url('./font/Prompt-Medium.ttf');
+}
+@font-face{
+    font-family: 'Prompt-Bold' ;
+    src:  url('./font/Prompt-Bold.ttf');
+}
+
+h1 h2 h3 h4 h5 h6{
+    font-family: 'Prompt-Medium';
+
+}
+
+.title{
+    font-family: 'Prompt-Regular';
+    
+}
+
+.App {
+    font-family: sans-serif;
+    text-align: center;
+  }
+  
+.button {
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    padding: 16px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+  }
+  .button:disabled {
+    opacity: 0.5;
+  }

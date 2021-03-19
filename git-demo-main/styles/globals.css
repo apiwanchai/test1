@@ -1,0 +1,18 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+.remove {
+    position: absolute;
+    top: 0;
+    right: 0;
+    border: none;
+    outline: none;
+    width: 35px;
+    height: 35px;
+    line-height: 35px;
+    background: firebrick;
+    color: #F3F3F3;
+    font-size: 28px;
+    cursor: pointer;
+  
+  }
